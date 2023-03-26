@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Знайомство з ІТ: тест драйв професій від Prometheus</title>
+</head>
+
+<body>
+    <header>
+        <div class="HeaderContainer">  
+            <div>
+                <img class="Logo" src="images/icon.svg" alt="logo">
+                <h1>Армія Дронів</h1>
+                <button>Зробити внесок</button>
+            </div>
+            <div>
+                <div class="Rectangle"></div>
+                <img class="Dron" src="images/header_dron.png" alt="dron">
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <h3>Мрієте, щоб ЗСУ стали ще сильніше, а палало аж до москви?</h3>
+        <p>Кожен день наближає Україну до перемоги.</p>
+        <p>Наскільки довгим буде цей шлях – залежить від нас.</p>
+        <p>Допоможіть зібрати кошти на дрони. Хлопці обіцяють – результат вам сподобається! Адже в кожного з нас єдине бажання, щоб зло на нашій землі було знищено. Ваш внесок важливий. Зробіть його просто зараз!</p>
+
+        <div></div>
+
+        <section class="Gallery">
+            <img class="Dron_Gallery" src="images/dron_1.jpg" alt="dron">
+            <img class="Dron_Gallery" src="images/dron_2.jpg" alt="dron">
+            <img class="Dron_Gallery" src="images/dron_3.jpg" alt="dron">
+        </section>
+
+        <h2>Зробити благодійний внесок</h2>
+
+        <section class="Pay_to_Found">
+            <section class="Found_Ch">
+                <h4>Оберіть фонд</h4>
+                <label>
+                <input type="radio" name="Found_Choice" value="Found_1">
+                <span>Фонд Сергія Притули</span>
+                </label>
+                <label>
+                    <input type="radio" name="Found_Choice" value="Found_2">
+                    <span>Повернись живим</span>
+                </label>
+                <label>
+                    <input type="radio" name="Found_Choice" value="Found_3">
+                    <span>Рахунок НБУ</span>
+                </label>
+                <label>
+                    <input type="radio" name="Found_Choice" value="Found_4">
+                    <span>Відкрий очі</span>
+                </label>
+            </section>
+
+            <section class="Card_N">
+                <h4>Введіть номер картки *</h4>
+                <label>
+                <input class="CardNumber" type="text" name="Card_Number" placeholder="XXXX XXXX XXXX XXXX">
+                </label>
+                <div class="card_terms_CVV">
+                    <div>
+                        <h4>Термін дії *</h4>
+                        <label>
+                        <input class="Terms" type="text" name="Card_Terms" placeholder="ММ/РР">
+                        </label>
+                    </div>
+                    <div>
+                        <h4>CVV</h4>
+                        <label>
+                        <input class="CardCVV" type="text" name="Card_CVV" placeholder="XXX">
+                        </label>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h4>Введіть ім’я на картці</h4>
+                <label>
+                <input class="CardOwner" type="text" name="Card_Owner" placeholder="Ваше ім’я">
+                </label>
+                <button class="Button_Submit">Підтвердити внесок</button>
+            </section>
+        </section>
+    </section>
+
+    <footer>
+        <div>
+            <h5>Створено як навчальний проєкт курсу “Знайомство з ІТ: тест драйв професій” від Prometheus</h5>
+            <h6>Тетяна Вернигора</h6>
+        </div>
+    </footer>
+</body>
+</html>

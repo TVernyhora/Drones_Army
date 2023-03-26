@@ -1,0 +1,243 @@
+/* COMMON STYLE START */
+body {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    color: #212033;
+    box-sizing: border-box;
+    margin: 0;
+}
+/* COMMON STYLE END */
+
+/* HEADER STYLE START */
+header {
+    width: 100%;
+    height: 567px;
+    background-color: #E3E6ED;
+    top: 0;
+}
+.Logo {
+    width: 104px;
+    margin-top: 50px;    
+}
+h1 {
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 90%;
+    letter-spacing: 0.15em;
+    width: 360px;
+    height: 144px;
+    margin-top: 98px;
+}
+header button {
+    width: 220px;
+    height: 57px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    background-color: #12569B;
+    border-radius: 50px;
+    margin-top: 40px;
+}
+.Rectangle {
+    width: 460px;
+    height: 506px;
+    background-color: #12569B;
+    border-radius: 0px 0px 300px 300px;
+    margin-left: 187px;
+}
+.Dron {
+    width: 511px;
+    height: 301px;
+    position: absolute;
+    top: 140px;
+}
+.HeaderContainer {
+    display: flex;
+    justify-content: flex-start;
+    width: 1007px;
+    margin: 0 auto;
+}
+/* HEADER STYLE END */
+
+/* MAIN STYLE START */
+h2 {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 64px;
+    text-align: center;
+    margin-bottom: 38px;
+}
+h3 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    max-width: 865px;
+    margin: 55px auto 27px auto;
+}
+h4 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 11px;
+}
+section p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    max-width: 693px;
+    margin: 0 auto 0 auto;
+}
+section div {
+    width: 93%;
+    height: 100px;
+    background-color: #E3E6ED;
+    margin-top: 103px;
+    left: 0px;
+}
+.Dron_Gallery {
+    width: 345px;
+    height: 203px;
+    border-radius: 12px;
+    margin: 0 10px;
+}
+.Gallery {
+    width: 1075px;
+    display: flex;
+    justify-content: center;
+    margin: -160px auto 80px auto;
+}
+.Pay_to_Found {
+    width: 874px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+}
+input {
+    display: none;
+}
+span {
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    height: 45px;
+    border: 1px solid #12569B;
+    border-radius: 80px;
+    background-color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 11px;
+    margin-right: 47px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #12569B;
+    cursor: pointer;
+}
+span:hover {
+    background-color: #E3E6ED;
+}
+.CardNumber {
+    display: unset;
+    width: 250px;
+    height: 51px;
+    text-align: center;
+    border: 1px solid #12569B;
+    border-radius: 12px;
+    margin-bottom: 0px;
+    margin-right: 47px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #12569B;
+}
+.card_terms_CVV {
+    margin-top: 0px;
+    background-color: #FFFFFF;
+    width: 250px;
+    display: flex;
+    justify-content: flex-start;
+}
+.card_terms_CVV div {
+    background-color: #FFFFFF;
+    margin: 0;
+}
+.Terms {
+    display: unset;
+    width: 120px;
+    height: 51px;
+    text-align: center;
+    border: 1px solid #12569B;
+    border-radius: 12px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #12569B;
+    margin-right: 20px;
+}
+.CardCVV {
+    display: unset;
+    width: 110px;
+    height: 51px;
+    text-align: center;
+    border: 1px solid #12569B;
+    border-radius: 12px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #12569B;
+}
+.CardOwner {
+    display: unset;
+    width: 250px;
+    height: 51px;
+    text-align: center;
+    border: 1px solid #12569B;
+    border-radius: 12px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #12569B;
+}
+.Button_Submit {
+    width: 250px;
+    height: 57px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    background-color: #12569B;
+    border-radius: 50px;
+    margin-top: 40px;
+}
+/* MAIN STYLE END */
+
+/* FOOTER STYLE START */
+footer div {
+    width: 100%;
+    height: 163px;
+    background-color: #12569B;
+    margin-top: 69px;
+}
+h5 {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    margin: 0;
+    padding-top: 48px;
+    padding-bottom: 0px;
+}
+h6 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+    padding-top: 28px;
+}    
+/* FOOTER STYLE END */
